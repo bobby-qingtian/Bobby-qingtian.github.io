@@ -1,0 +1,74 @@
+Contacts.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Name | Contact</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav">
+      <div class="logo">Your Name</div>
+      <ul class="nav-links">
+        <li><a href="Index.html">Intro</a></li>
+        <li><a href="Journey.html">My Journey</a></li>
+        <li><a href="Works.html">My Works</a></li>
+        <li><a href="Contacts.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="section">
+      <div class="section-header">
+        <h2>Contact</h2>
+        <p>Reach out for roles, collaborations, or coffee chats.</p>
+      </div>
+      <div class="section-body">
+        <!-- you can add a simple form later with Cursor -->
+        <p>Email: <a href="mailto:youremail@example.com">youremail@example.com</a></p>
+        <p>LinkedIn:
+          <a href="https://www.linkedin.com/in/your-handle" target="_blank" rel="noreferrer">
+            linkedin.com/in/your-handle
+          </a>
+        </p>
+        <p>GitHub:
+          <a href="https://github.com/your-handle" target="_blank" rel="noreferrer">
+            github.com/your-handle
+          </a>
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <section id="contact" class="section">
+      <div class="section-header">
+        <h2>Contact</h2>
+        <p>Open to opportunities, collaborations, and coffee chats.</p>
+      </div>
+      <div class="section-body">
+        <p>Email: <a href="mailto:youremail@example.com">youremail@example.com</a></p>
+        <p>LinkedIn:
+          <a href="https://www.linkedin.com/in/your-handle" target="_blank" rel="noreferrer">
+            linkedin.com/in/your-handle
+          </a>
+        </p>
+        <p>GitHub:
+          <a href="https://github.com/your-handle" target="_blank" rel="noreferrer">
+            github.com/your-handle
+          </a>
+        </p>
+        <p><a href="/Your_Name_Resume.pdf" target="_blank" rel="noreferrer">Download my resume</a></p>
+      </div>
+    </section>
+    <p>© <span id="year"></span> Your Name. All rights reserved.</p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

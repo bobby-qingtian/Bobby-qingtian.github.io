@@ -1,0 +1,101 @@
+Works.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Name | My Works</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav">
+      <div class="logo">Your Name</div>
+      <ul class="nav-links">
+        <li><a href="Index.html">Intro</a></li>
+        <li><a href="Journey.html">My Journey</a></li>
+        <li><a href="Works.html">My Works</a></li>
+        <li><a href="Contacts.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="works" class="section">
+      <div class="section-header">
+        <h2>My Works</h2>
+        <p>Selected projects and case studies.</p>
+      </div>
+      <div class="cards-grid">
+        <article class="card">
+          <h3>Project Title</h3>
+          <p>One‑sentence overview and your role.</p>
+          <ul class="tags">
+            <li>Consulting</li><li>Data</li>
+          </ul>
+          <a href="#" class="card-link" target="_blank" rel="noreferrer">View project</a>
+        </article>
+        <!-- more cards -->
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <div class="section-header">
+        <h2>Skills</h2>
+        <p>Tools and capabilities I use most often.</p>
+      </div>
+      <div class="skills-grid">
+        <div class="skills-group">
+          <h3>Technical</h3>
+          <ul>
+            <li>Excel / Power BI / SQL</li>
+            <li>Python / basic web</li>
+          </ul>
+        </div>
+        <div class="skills-group">
+          <h3>Business</h3>
+          <ul>
+            <li>Financial analysis</li>
+            <li>Market research</li>
+          </ul>
+        </div>
+        <div class="skills-group">
+          <h3>Soft Skills</h3>
+          <ul>
+            <li>Structured problem‑solving</li>
+            <li>Presentation</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <section id="contact" class="section">
+      <div class="section-header">
+        <h2>Contact</h2>
+        <p>Open to opportunities, collaborations, and coffee chats.</p>
+      </div>
+      <div class="section-body">
+        <p>Email: <a href="mailto:youremail@example.com">youremail@example.com</a></p>
+        <p>LinkedIn:
+          <a href="https://www.linkedin.com/in/your-handle" target="_blank" rel="noreferrer">
+            linkedin.com/in/your-handle
+          </a>
+        </p>
+        <p>GitHub:
+          <a href="https://github.com/your-handle" target="_blank" rel="noreferrer">
+            github.com/your-handle
+          </a>
+        </p>
+        <p><a href="/Your_Name_Resume.pdf" target="_blank" rel="noreferrer">Download my resume</a></p>
+      </div>
+    </section>
+    <p>© <span id="year"></span> Your Name. All rights reserved.</p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
